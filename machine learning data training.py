@@ -9,7 +9,7 @@ data1 = pd.read_csv('housing.csv')
 #checking any missing value 
 data1.isnull().sum()
 
-#converting independent variables into array 
+#converting variables into array 
 np.array([data1.ZSMHC])
 np.array([data1.ZINC2])
 np.array([data1.BEDRMS])
