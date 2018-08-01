@@ -12,7 +12,7 @@ tips.pivot_table(['total_bill','size'], index =['time','day'], columns ='smoker'
 #Treating the missing value 
 tips.pivot_table(['total_bill','size'], index =['time','day'], columns ='smoker',fill_value=0)
 
-#aggregating the pivot tables 
+#group means the pivot tables 
 tips.pivot_table(['tip_pct', 'size'], index = ['time', 'day'], columns = 'smoker', margins=True, fill_value=0)
 
 #importing visualising library 
