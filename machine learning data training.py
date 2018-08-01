@@ -26,7 +26,7 @@ X_data1 = data1[predictors].values
 Y_data1 = data1['ZSMHC'].values
 
 #making model fit 
-model.fit(X_data1, Y_data1
+model.fit(X_data1, Y_data1)
 
 #predicting the rent housing in further 10 period ahead 
 y_predict = model.predict(X_data1)
